@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&family=Rubik+Doodle+Shadow&family=Titillium+Web&display=swap');
+
+.popupbar{
+  background-color: rgb(14, 13, 13);
+  color: aliceblue;
+  text-align: center;
+  font-family: "Titillium Web ", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 13px;
+}
+
+.popupbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(255, 252, 252);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 11px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  padding: 0px 40px;
+}
+
+.navbar {
+  font-size: 18px;
+  font-family: "poppins", "sans-serif";
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbar li a {
+  color: rgb(0, 0, 0);
+  text-decoration: solid black;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+  cursor: pointer;
+
+}
+
+button {
+  margin-right: 20px;
+  padding: 9px 25px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: bisque;
+}
+ 
+.upper-container{
+  position: relative;
+  text-align: center;
+}
+
+.main-sale{
+  font-size: 60px;
+  font-family: "poppins", sans-serif;
+  position: absolute;
+  top: 34%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.sale-info{
+  font-size: 25px;
+  font-family: "poppins", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.model2{
+  width: 43%;
+  height: 96%;
+  position: absolute;
+  left: 55%;
+  top: 3%;
+}
+
+.nameconvention{
+  padding-left: 10px;
+  font-family: "rubik doodle shadow", sans-serif;
+  font-size: 40px;
+}
+
+.deals{
+  display: flex;
+}
+.discount{
+  flex: 25%;
+  padding:5px;
+}
+
+.dealfont{
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+}
+
+.dealfont a {
+  text-decoration: none;
+  color: black;
+}
+
+.Shopping{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column{
+  padding: 6px 10px;
+  background-color: rgb(237, 255, 196);
+  font-family: "Mukta", sans-serif;
+  font-size: 20px ;
+  flex: 50%;
+}
+
+.shoe-aboutus{
+  width: 70%;
+  translate: 130px;
+
+}
+
+footer{
+  background-color: rgba(224, 222, 222, 0.301);
+  color: rgb(0, 0, 0);
+}
+
+.support{
+  font-family: "poppins", sans-serif;
+  padding:  10px 20px;
+  flex: 50%;
+}
+
+.support li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.end-footer{
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.288);
+}
+
